@@ -1,7 +1,4 @@
 from odoo import models,api
-import logging
-
-_logger = logging.getLogger(__name__)
 
 class sale_order_line(models.Model):
     _inherit = "sale.order.line"
@@ -32,5 +29,4 @@ class sale_order_line(models.Model):
             'discount':vals.get('discount',0.0),
             'state':'draft',
         })
-        _logger.info('=========================> update sale.order.line %r' % order_line)
         return order_line

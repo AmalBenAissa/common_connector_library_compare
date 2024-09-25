@@ -107,7 +107,7 @@ class FTPInterface(object):
 
         """
         for filename in filenames:
-            self.client.cwd(self.from_tpw_dir)
+            self.client.cwd(self.from_TPW_dir)
             self.client.delete(filename)
         return
     

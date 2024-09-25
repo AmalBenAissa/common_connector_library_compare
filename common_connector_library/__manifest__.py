@@ -3,7 +3,7 @@
 {
 
 	'name': 'Common Connector Library',
-	'version': '12.0.5',
+	'version': '12.0',
     'category': 'Sale',
     'license': 'OPL-1',
     'author': 'Emipro Technologies Pvt. Ltd.',

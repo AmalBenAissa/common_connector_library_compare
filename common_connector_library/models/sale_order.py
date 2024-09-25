@@ -45,8 +45,7 @@ class sale_order(models.Model):
             'fiscal_position_id': fpos,
             'payment_term_id':vals.get('payment_term_id',''),
             'invoice_policy':vals.get('invoice_policy',''),
-            'partner_shipping_id': vals.get('partner_shipping_id'),
-            #'invoice_shipping_on_delivery':vals.get('invoice_shipping_on_delivery',False),
+            'invoice_shipping_on_delivery':vals.get('invoice_shipping_on_delivery',False),
             'team_id':vals.get('team_id',''),
             'client_order_ref':vals.get('client_order_ref',''),
             'carrier_id':vals.get('carrier_id','')
